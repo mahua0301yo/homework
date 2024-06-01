@@ -8,7 +8,18 @@ import streamlit.components.v1 as stc
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from talib import MACD
-
+import os
+# os.chdir(r'C:\Users\user\Dropbox\系務\專題實作\112\金融看板\for students')
+#import haohaninfo
+#from order_Lo8 import Record
+import numpy as np
+#from talib.abstract import SMA,EMA, WMA, RSI, BBANDS, MACD
+#import sys
+import indicator_f_Lo2_short,datetime, indicator_forKBar_short
+import datetime
+import pandas as pd
+import streamlit as st 
+import streamlit.components.v1 as stc 
 ###### (1) 開始設定 ######
 html_temp = """
 		<div style="background-color:#3872fb;padding:10px;border-radius:10px">
