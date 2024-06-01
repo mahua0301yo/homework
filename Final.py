@@ -1,3 +1,10 @@
+import streamlit as st
+import talib
+
+# 安裝 TA-Lib
+st.write("正在安裝 TA-Lib 套件...")
+st.code("pip install TA-Lib", language="bash")
+
 # 載入必要模組
 import os
 # os.chdir(r'C:\Users\user\Dropbox\系務\專題實作\112\金融看板\for students')
